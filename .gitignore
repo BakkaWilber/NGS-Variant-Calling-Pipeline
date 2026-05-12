@@ -1,0 +1,22 @@
+# Large sequencing files
+*.fastq
+*.fastq.gz
+
+# Alignment files
+*.sam
+*.bam
+*.bai
+
+# Intermediate files
+*.bcf
+*.bed
+
+# QC outputs
+*.html
+*.zip
+*.json
+
+# Reference genomes
+*.fna
+*.fa
+reference/gencode.v44.annotation.gtf
