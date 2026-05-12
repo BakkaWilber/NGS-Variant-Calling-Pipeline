@@ -58,14 +58,18 @@ The selected genomic region (chr1:10–10.5 Mb) is not enriched for classical im
 
 ## Visual Outputs
 
-This project includes automatically generated visual summaries:
+This project includes reproducible visual summaries generated using Python (matplotlib/pandas).
 
-- Pipeline workflow diagram
-- Quality control comparison (pre/post trimming)
-- Variant summary dashboard
+Outputs include:
+
+- End-to-end NGS workflow diagram
+- Quality control comparison before vs after trimming
+- Project summary dashboard
 - Gene feature category distribution
 
-Generated using Python (matplotlib/pandas) from reproducible scripts in `/scripts`.
+Figures are generated automatically using:
+
+scripts/make_figures.py
 
 ## Limitations
 
