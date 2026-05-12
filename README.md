@@ -56,6 +56,17 @@ gencode.v44.annotation.gtf
 
 The selected genomic region (chr1:10–10.5 Mb) is not enriched for classical immune genes but contains regulatory elements such as microRNAs and lncRNAs that may influence gene expression.
 
+## Visual Outputs
+
+This project includes automatically generated visual summaries:
+
+- Pipeline workflow diagram
+- Quality control comparison (pre/post trimming)
+- Variant summary dashboard
+- Gene feature category distribution
+
+Generated using Python (matplotlib/pandas) from reproducible scripts in `/scripts`.
+
 ## Limitations
 
 - Reduced dataset size
